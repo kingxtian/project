@@ -1,0 +1,257 @@
+
+.tab-one-header{
+  display: grid;
+  grid-template-columns: 30px 80px;
+  justify-content: space-between;
+  align-items: center;
+}
+
+
+.full-arr{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  justify-content: center;
+  align-items: center;
+  height: 20px;
+  width: 130px;
+  
+}
+.full-report{
+  width: 60px;
+  height: 20px;
+  font-size: 8px;
+  margin-left: 10px;
+  margin-top: 12px;
+  border-radius: 10px;
+  background-color: #343434;
+  border:1px  solid rgb(175, 169, 169) ;
+  color: rgb(199, 199, 161);
+}
+
+.calendar{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  justify-content: space-between;
+}
+.mon { 
+  border: 1px solid gray;
+  border-radius: 8px;
+  width: 30px;
+  height: 40px;
+  font-size: 11px;
+  display: grid;
+  justify-content: center;
+  align-items: start;
+  color: gray;
+}
+.tue { 
+  border: 1px solid rgb(238, 238, 130);
+  border-radius: 8px;
+  width: 30px;
+  height: 40px;
+  font-size: 11px;
+  display: grid;
+  justify-content: center;
+  align-items: start;
+  background-color: rgb(238, 238, 130);
+  color: gray;
+}
+.wed { 
+  border: 1px solid gray;
+  border-radius: 8px;
+  width: 30px;
+  height: 40px;
+  font-size: 11px;
+  display: grid;
+  justify-content: center;
+  align-items: start;
+  color: gray;
+}
+  
+  .dates{
+   font-weight: bold;
+   padding-left: 6px;
+   color: #000;
+  }
+.stat {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.full-report-date{
+  margin-left:40px ;
+  margin-top: 12px;
+  color: yellow;
+}
+.download-button{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   
+}
+.down-button{
+  font-size: 8px;
+  width: 90px;
+  height: 20px;
+  background-color: #343434;
+  color: rgb(199, 199, 161);
+  border-radius: 5px;
+   border: 1px solid rgb(175, 169, 169); 
+
+}
+.B-R{
+  margin-top: 10px;
+  font-weight: bold;
+}
+.rate-percent{
+  border-right: 1px solid black;
+  font-weight: bolder;
+  font-size: 25px;
+  padding-right: 10px;
+}
+
+.title{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: x-small;
+}
+img{
+  width: 27px;
+}
+.img-dp{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.profile-name{
+  font-size: x-small;
+  display: flex;
+  justify-content: center;
+  align-items: start;
+}
+.edit-button{
+  width: 30px;
+  height: 17px;
+  font-size: xx-small;
+  border-radius: 10px;
+  border: 1px solid rgb(214, 209, 209);
+  background-color: #343434;
+  color: rgb(173, 171, 171);
+  
+}
+.edit-BU {
+  display: flex;
+  justify-content: center;
+  align-items: start;
+}
+.button-class{
+  font-size: xx-small;
+  font-weight: lighter;
+ display: grid;
+ grid-template-rows:repeat(3, 20px) ;
+ justify-content: center;
+}
+.header{
+  display: grid;
+  grid-template-columns: 130px 5px 150px 1fr 1fr;
+  gap: 10px;
+  justify-content: center;
+  align-items: center;
+  margin-top: 10px;
+  padding-left: 10px;
+
+}
+.header-1{
+  font-size: xx-small;
+ 
+}
+input{
+  background-color: #343434;
+  border: 0 solid #343434 ;
+  font-size: 10px;
+}
+.header-2{
+  width: 70px;
+  height: 20px;
+  font-size: x-small;
+  border-radius: 6px;
+  border: 0;
+  background-color: rgb(251, 251, 127);
+ 
+}
+.header-3{
+  width: 25px;
+  height: 18px;
+  background-color: #343434;
+  border: 1px solid wheat;
+  border-radius: 8px;
+  color: rgb(168, 175, 180);
+
+}
+.symbol{
+  border: 4px solid black;
+  margin-left: 30px;
+}
+.social-one{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 2px solid black;
+}
+.social-two{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  
+}
+.circle{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  align-self: center;
+  border: 5px groove #000;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  margin-left: 40px;
+  color: black;
+}
+.traffic-number{
+  font-size: 15px;
+  font-weight: bold;
+}
+svg{
+  width: 10px;
+  height:10px;
+}
+.website{
+  font-weight: 700;
+  padding-left: 10px;
+  font-size: 7px;
+  width: 60px;
+
+
+}
+.more-button{
+   padding-left: 50px;
+}
+.last-day-start{
+  font-size:9px;
+  padding-right: 10px;
+}
+.ROI{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  justify-content: space-between;
+  align-items: center;
+}
+.web-score{
+  width: 110px;
+  height: 25px;
+  font-size: 7px;
+  font-weight: bolder;
+  border-radius: 10px;
+  background-color: rgb(251, 251, 127);
+  border: 1px solid rgb(251, 251, 127);
+}

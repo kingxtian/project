@@ -1,0 +1,83 @@
+.layer-one{
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  
+  }
+  .yellow-tem {
+    width: 150px;
+    border: 0;
+    height: 150px;
+    font-size: 8px;
+    display: grid;
+    grid-template-rows: 20px 90px 15px 10px;
+    background-color: rgb(251, 251, 127);
+    color: #000;
+    padding: 10px;
+    border-radius: 10px;
+   
+  }
+  .black-tem{
+    width: 150px;
+    border: 0;
+    height: 150px;
+    font-size: 8px;
+    display: grid;
+    grid-template-rows: 1fr 30px;
+    background-color: #28282B;
+    border-radius: 10px; 
+  }
+  .white-tem{
+    width: 150px;
+    border: 0;
+    height: 150px;
+    font-size: x-small;
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr ;
+    background-color: #D3D3D3;
+    border-radius: 10px;
+    padding-left: 10px;
+  }
+  .layer-2{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    margin-bottom: 15px;
+    justify-content: space-between;
+
+  }                                                                                
+  .one-tem {
+    width: 150px;
+    border: 0;
+    height: 150px;
+    font-size: x-small;
+    background-color: #28282B;
+    border-radius: 10px;
+    display: grid;
+    grid-template-rows: 40px 30px 40px;
+    padding-left: 10px;
+    color:rgb(214, 212, 203) ;
+  }
+  .two-tem{
+    width: 150px;
+    border: 0;
+    height: 150px;
+    font-size: x-small;
+    /* background-color: #818589; */
+    border-radius: 10px;
+    display: grid;
+    justify-content: center;
+    align-items: end;
+    padding-bottom: 15px;
+    background-image:url(download.jpg);
+    background-position: center;
+  }
+  .three-tem{
+    width: 150px;
+    border: 0;
+    height: 150px;
+    font-size: x-small;
+    border-radius: 10px;
+    padding-left: 15px;
+    padding-top: 20px;
+    background-color: #28282B;
+    color: rgb(165, 165, 165);
+  }
